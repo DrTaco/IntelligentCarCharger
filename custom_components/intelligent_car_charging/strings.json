@@ -1,0 +1,40 @@
+{
+  "title": "Intelligent Car Charging",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configure Charging Logic",
+        "description": "Select the sensors to monitor for intelligent solar-aware charging.",
+        "data": {
+          "battery_sensor": "Car Battery Sensor (%)",
+          "charge_current_sensor": "Charging Current Entity (Amps)",
+          "power_usage_sensor": "P1 Power Meter (Watts)",
+          "cable_connected_sensor": "Cable Connected Sensor",
+          "electrical_phases": "Electrical System Type"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to the car",
+      "unknown": "An unexpected error occurred"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update Charging Settings",
+        "data": {
+          "battery_sensor": "Car Battery Sensor (%)"
+        }
+      }
+    }
+  },
+  "selector": {
+    "electrical_phases": {
+      "options": {
+        "1": "Single Phase (1-Phase)",
+        "3": "Three Phase (3-Phase)"
+      }
+    }
+  }
+}
