@@ -2,7 +2,7 @@
 
 An intelligent, solar-aware EV charging integration for Home Assistant. This component monitors your house's power usage (P1 Meter) and automatically adjusts your car's charging current to maximize the use of excess solar energy.
 
-![Logo](https://raw.githubusercontent.com/DRTaco/IntelligentCarCharger/main/custom_components/icons/logo.png)
+![Logo](https://raw.githubusercontent.com/DRTaco/IntelligentCarCharger/main/custom_components/intelligent_car_charging/icons/icon.png)
 
 ## ✨ Features
 * **Solar Excess Tracking:** Automatically starts charging when solar production exceeds 500W.
