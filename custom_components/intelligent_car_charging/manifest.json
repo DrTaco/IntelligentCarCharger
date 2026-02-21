@@ -1,0 +1,9 @@
+{
+  "domain": "intelligent_car_charging",
+  "name": "Intelligent Car Charging",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/yourrepo",
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}

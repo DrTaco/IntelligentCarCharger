@@ -1,0 +1,5 @@
+DOMAIN = "intelligent_car_charging"
+CONF_BATTERY_ENTITY = "battery_sensor"
+CONF_CHARGE_CURRENT = "charge_current_sensor"
+CONF_POWER_USAGE = "power_usage_sensor"
+CONF_PHASES = "electrical_phases"
